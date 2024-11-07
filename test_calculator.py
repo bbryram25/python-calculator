@@ -13,8 +13,8 @@ class TestCalculator(unittest.TestCase):
     # Add the following test methods to the TestCalculator class:
     
     def test_subtract(self):
-        self.assertEqual(self.calc.subtract(2, 5), 3)
-        self.assertEqual(self.calc.subtract(2, 10), 8)
+        self.assertEqual(self.calc.subtract(5, 2), 3)
+        self.assertEqual(self.calc.subtract(10, 2), 8)
    
     def test_multiply(self):
         self.assertEqual(self.calc.multiply(2, 10), 20)
